@@ -3,33 +3,34 @@
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testmodule
-			id="0018d544-03db-411c-911c-2decfc9d813f"
-			name="CloseAUT"
-			ref="fd5591b9-4a9b-4045-9035-749b4725cab1"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="AppProcessID"
-					datasourceid="8a45198c-e31a-4e2d-971f-c63232cd32c9"
-					variableid="a01ea109-3b7a-4991-ba93-a11bdcf8e862"
-					variablename="CloseAutProcessIDVar">
-					</var>
-				</databinding>
-			</testmodule>
-			<setup
-			id="019c0346-a45d-4ead-8d6e-2aa636ade76a"
-			name="setup">
-			</setup>
-			<testmodule
 			id="03cb33f2-43f6-424c-a81e-080a5887cef6"
 			name="Select_All_Table_Rows"
 			ref="8a48b0be-7d86-4770-a456-b3bd4ab52113"
 			type="Recording">
+				<description>
+					<![CDATA[Verify all rows inside the table are selected when user clicks on top left corner of the table]]>
+				</description>
 			</testmodule>
+			<setup
+			id="0cb8978a-5f57-4d56-887f-b5af0997c2b5"
+			name="setup">
+				<description>
+					<![CDATA[Launch AUT]]>
+				</description>
+			</setup>
 			<teardown
-			id="081ab6ab-4e71-4e01-9b52-41a69c7ac266"
+			id="0f79484e-f961-424e-8d15-11058e7dcd11"
 			name="teardown">
+				<description>
+					<![CDATA[Close AUT]]>
+				</description>
 			</teardown>
+			<testmodule
+			id="119b4139-aac0-47ea-8492-04f487bc16ce"
+			name="SetupJiraIntegration"
+			ref="c87d3889-8e1f-4009-b203-8bd062ef46c9"
+			type="UserCode">
+			</testmodule>
 			<testcase
 			id="11e1ac02-5e98-4e39-8950-4b4efab259cd"
 			name="7_Verify_Progressbar_Reset">
@@ -37,35 +38,30 @@
 					<![CDATA[Verify progress bar return to its default state after clicking Reset button]]>
 				</description>
 			</testcase>
-			<teardown
-			id="14c5c9a9-62e7-49c2-bd6d-479c507ede6d"
-			name="teardown">
-			</teardown>
-			<testmodule
-			id="151780c8-f74f-44e2-829d-54424ba9700b"
-			name="CloseAUT"
-			ref="fd5591b9-4a9b-4045-9035-749b4725cab1"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="AppProcessID"
-					datasourceid="8a45198c-e31a-4e2d-971f-c63232cd32c9"
-					variableid="a01ea109-3b7a-4991-ba93-a11bdcf8e862"
-					variablename="CloseAutProcessIDVar">
-					</var>
-				</databinding>
-			</testmodule>
 			<testmodule
 			id="18a45273-e486-4a78-b45a-3166f820d6a7"
 			name="Click_Reset_Verify_Progressbar"
 			ref="31c06de1-fb88-4e6c-b091-8fec8554c776"
 			type="Recording">
+				<description>
+					<![CDATA[Click reset button and verify progress bar defaults to its original state]]>
+				</description>
 			</testmodule>
+			<setup
+			id="18c8e17d-71ff-46fa-9544-c26073ab4830"
+			name="setup">
+				<description>
+					<![CDATA[Launch AUT]]>
+				</description>
+			</setup>
 			<testmodule
 			id="19d624e6-017c-4e55-985d-378ea9ed8991"
 			name="Fill_In_Form_And_Click_Add_Entry"
 			ref="94ef9041-3ac8-49cf-81f8-af08f5ac75a6"
 			type="Recording">
+				<description>
+					<![CDATA[Add entries to database]]>
+				</description>
 				<databinding>
 					<var
 					dataname="Firstname"
@@ -76,51 +72,44 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			id="19dace76-a22e-4aab-b1da-0941603839f5"
-			name="CloseAUT"
-			ref="fd5591b9-4a9b-4045-9035-749b4725cab1"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="AppProcessID"
-					datasourceid="8a45198c-e31a-4e2d-971f-c63232cd32c9"
-					variableid="a01ea109-3b7a-4991-ba93-a11bdcf8e862"
-					variablename="CloseAutProcessIDVar">
-					</var>
-				</databinding>
-			</testmodule>
-			<testmodule
-			id="351e6b51-8508-4ba2-945e-b004582e927f"
+			id="1f76a2cf-559f-49c4-a192-358b462cbb0f"
 			name="StartAUT"
-			ref="a016902c-5633-4893-885d-647761fa0eeb"
+			ref="63e021d7-56bf-452e-8ec0-71d78c6d7898"
 			type="Recording">
 				<databinding>
 					<var
 					dataname="AppProcessID"
 					datasourceid="8a45198c-e31a-4e2d-971f-c63232cd32c9"
-					variableid="dbd71d3f-cfd1-42b3-b88e-9b88a55554bb"
+					variableid="81412f9f-b56a-4691-a738-06d59a13b1da"
 					variablename="StartAutProcessIDVar">
 					</var>
 				</databinding>
 			</testmodule>
 			<setup
-			id="404d3f83-8ee3-46ab-87b7-22c7ce9a6ccb"
+			id="268fa149-257e-4556-b86c-a12f3e0fc8f6"
+			name="setup">
+				<description>
+					<![CDATA[Launch AUT]]>
+				</description>
+			</setup>
+			<teardown
+			id="2a7c3da3-da96-4b61-b155-7b5ded697ffc"
+			name="teardown">
+				<description>
+					<![CDATA[Close AUT]]>
+				</description>
+			</teardown>
+			<setup
+			id="337badc6-a95c-4f16-8492-fa3f9d155776"
+			name="setup">
+				<description>
+					<![CDATA[Launch AUT]]>
+				</description>
+			</setup>
+			<setup
+			id="40e53d04-2bb8-43fc-aa75-7f999fb153d3"
 			name="setup">
 			</setup>
-			<testmodule
-			id="470261ae-f49e-41f1-97b9-882aa0536f6a"
-			name="CloseAUT"
-			ref="fd5591b9-4a9b-4045-9035-749b4725cab1"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="AppProcessID"
-					datasourceid="8a45198c-e31a-4e2d-971f-c63232cd32c9"
-					variableid="a01ea109-3b7a-4991-ba93-a11bdcf8e862"
-					variablename="CloseAutProcessIDVar">
-					</var>
-				</databinding>
-			</testmodule>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
 			TracingScreenshotMode="Foreground"
@@ -141,8 +130,11 @@
 			reportwriteinterval="30000ms">
 			</testsuite>
 			<setup
-			id="50f6d4a0-7f81-4ac8-99de-796d50f0ca3f"
+			id="4e337794-b642-4c80-8d04-b5b38cbaf1e9"
 			name="setup">
+				<description>
+					<![CDATA[Launch AUT]]>
+				</description>
 			</setup>
 			<testcase
 			id="5296b965-8671-4ff4-907b-4999aacf79d6"
@@ -156,92 +148,99 @@
 			name="Remove_All_Entries_In_Table"
 			ref="ea42a684-b213-484f-8007-cd25bbcbc69d"
 			type="Recording">
+				<description>
+					<![CDATA[Remove all entries from the table]]>
+				</description>
 			</testmodule>
 			<testmodule
-			id="53b313e6-16d3-4cad-8dce-51c37ce1837b"
+			id="56798572-6378-401f-a5e9-311029af81eb"
 			name="CloseAUT"
-			ref="fd5591b9-4a9b-4045-9035-749b4725cab1"
+			ref="d96aff6e-7eeb-4e96-9843-942dfb75264c"
 			type="Recording">
 				<databinding>
 					<var
 					dataname="AppProcessID"
 					datasourceid="8a45198c-e31a-4e2d-971f-c63232cd32c9"
-					variableid="a01ea109-3b7a-4991-ba93-a11bdcf8e862"
+					variableid="fb5d208b-dcae-457d-a187-a4a5a85741d4"
 					variablename="CloseAutProcessIDVar">
 					</var>
 				</databinding>
 			</testmodule>
-			<teardown
-			id="55eea3d0-d750-40b3-b3e9-c3e5c0ba5898"
-			name="teardown">
-			</teardown>
 			<testmodule
-			id="58a422f0-fcfc-4d5f-824f-2c1f9c0ff20a"
-			name="CloseAUT"
-			ref="fd5591b9-4a9b-4045-9035-749b4725cab1"
+			id="58d44445-f7a0-484c-b373-16f71a0edea0"
+			name="StartAUT"
+			ref="63e021d7-56bf-452e-8ec0-71d78c6d7898"
 			type="Recording">
 				<databinding>
 					<var
 					dataname="AppProcessID"
 					datasourceid="8a45198c-e31a-4e2d-971f-c63232cd32c9"
-					variableid="a01ea109-3b7a-4991-ba93-a11bdcf8e862"
-					variablename="CloseAutProcessIDVar">
+					variableid="81412f9f-b56a-4691-a738-06d59a13b1da"
+					variablename="StartAutProcessIDVar">
 					</var>
 				</databinding>
 			</testmodule>
-			<setup
-			id="5a041372-2f8f-4ed1-9267-77d9c41ff766"
-			name="setup">
-			</setup>
+			<testmodule
+			id="59d33bd2-9911-4607-9854-e975e2ca97d5"
+			name="StartAUT"
+			ref="63e021d7-56bf-452e-8ec0-71d78c6d7898"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="8a45198c-e31a-4e2d-971f-c63232cd32c9"
+					variableid="81412f9f-b56a-4691-a738-06d59a13b1da"
+					variablename="StartAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
 			<testmodule
 			id="5a5dd85e-08ce-4644-8ae1-15173f9d0ee1"
 			name="Navigate_to_Test_database_tab"
 			ref="6bc4a34c-9acf-4fd4-93ef-a6c298a2cbad"
 			type="Recording">
+				<description>
+					<![CDATA[Verify navigation to Test database tab]]>
+				</description>
 			</testmodule>
 			<testmodule
 			id="5b064cd9-d259-41e3-8409-e9afdc65c0cd"
 			name="Upload_File_And_Verify_Progressbar"
 			ref="5007413e-9a7a-4cff-b4cb-320fa452fcca"
 			type="Recording">
+				<description>
+					<![CDATA[Upload file and verify progress bar shows 100%]]>
+				</description>
 			</testmodule>
 			<setup
-			id="5c082d04-e684-460f-b7ba-faebde393ce9"
+			id="5e2cee7f-b213-4b9e-85e1-07bec1a54e42"
 			name="setup">
+				<description>
+					<![CDATA[Launch AUT]]>
+				</description>
 			</setup>
-			<testmodule
-			id="5c3cff16-eaf6-4a36-97d3-5ad62ff3d9b1"
-			name="CloseAUT"
-			ref="fd5591b9-4a9b-4045-9035-749b4725cab1"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="AppProcessID"
-					datasourceid="8a45198c-e31a-4e2d-971f-c63232cd32c9"
-					variableid="a01ea109-3b7a-4991-ba93-a11bdcf8e862"
-					variablename="CloseAutProcessIDVar">
-					</var>
-				</databinding>
-			</testmodule>
-			<testmodule
-			id="60136346-7974-49cf-a2d1-68558aa11d12"
-			name="CloseAUT"
-			ref="fd5591b9-4a9b-4045-9035-749b4725cab1"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="AppProcessID"
-					datasourceid="8a45198c-e31a-4e2d-971f-c63232cd32c9"
-					variableid="a01ea109-3b7a-4991-ba93-a11bdcf8e862"
-					variablename="CloseAutProcessIDVar">
-					</var>
-				</databinding>
-			</testmodule>
 			<testmodule
 			id="63036162-842f-499d-8508-6b11fadf9992"
 			name="Navigate_to_UI_element_test_area_tab"
 			ref="348ce429-e775-46ab-9ffc-cfbe037d007a"
 			type="Recording">
+				<description>
+					<![CDATA[Verify navigation to UI elements test area tab]]>
+				</description>
+			</testmodule>
+			<testmodule
+			id="688b7967-ee56-4d8e-a294-456bd29c430e"
+			name="CloseAUT"
+			ref="d96aff6e-7eeb-4e96-9843-942dfb75264c"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="8a45198c-e31a-4e2d-971f-c63232cd32c9"
+					variableid="fb5d208b-dcae-457d-a187-a4a5a85741d4"
+					variablename="CloseAutProcessIDVar">
+					</var>
+				</databinding>
 			</testmodule>
 			<testcase
 			id="6fc9c6b9-d991-499c-8b46-ae95c3b816fd"
@@ -250,24 +249,6 @@
 					<![CDATA[<p>Verify user is able to expand/collapse the tree view structure</p>]]>
 				</description>
 			</testcase>
-			<teardown
-			id="704ddb30-f99d-4696-808d-dd7af678f0a9"
-			name="teardown">
-			</teardown>
-			<testmodule
-			id="708412ea-e1e0-4131-9976-50629c6a9195"
-			name="StartAUT"
-			ref="a016902c-5633-4893-885d-647761fa0eeb"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="AppProcessID"
-					datasourceid="8a45198c-e31a-4e2d-971f-c63232cd32c9"
-					variableid="dbd71d3f-cfd1-42b3-b88e-9b88a55554bb"
-					variablename="StartAutProcessIDVar">
-					</var>
-				</databinding>
-			</testmodule>
 			<testcase
 			id="71178155-154e-497d-a53b-5ac56e783027"
 			name="2_Verify_Welcome_Message">
@@ -276,42 +257,43 @@
 				</description>
 			</testcase>
 			<testmodule
-			id="78f4cf18-a43a-43f2-a6d3-8a43643a0651"
+			id="763bfdac-ba14-425c-b5ab-ca40df9fdfcc"
 			name="StartAUT"
-			ref="a016902c-5633-4893-885d-647761fa0eeb"
+			ref="63e021d7-56bf-452e-8ec0-71d78c6d7898"
 			type="Recording">
 				<databinding>
 					<var
 					dataname="AppProcessID"
 					datasourceid="8a45198c-e31a-4e2d-971f-c63232cd32c9"
-					variableid="dbd71d3f-cfd1-42b3-b88e-9b88a55554bb"
+					variableid="81412f9f-b56a-4691-a738-06d59a13b1da"
 					variablename="StartAutProcessIDVar">
 					</var>
 				</databinding>
 			</testmodule>
-			<setup
-			id="79daebdd-672b-4034-b51c-8c28ae9a48db"
-			name="setup">
-			</setup>
 			<teardown
-			id="7bdd0aad-bdce-4e5c-80d1-08a830f20c9c"
+			id="8021469f-4f9f-4b05-856f-cfe8bc948975"
 			name="teardown">
-			</teardown>
-			<teardown
-			id="7c9fba9d-c7a9-470a-9ac0-9859d03683f6"
-			name="teardown">
+				<description>
+					<![CDATA[Close AUT]]>
+				</description>
 			</teardown>
 			<testmodule
 			id="8303bce5-27e1-45da-9929-a5e083f8dd6c"
 			name="Verify_Green_Image_Is_Shown"
 			ref="ca92e171-7a0d-4865-9a5f-c260a4f30b4c"
 			type="Recording">
+				<description>
+					<![CDATA[Verify Green image is shown on clicking Green radio button]]>
+				</description>
 			</testmodule>
 			<testmodule
 			id="85a663af-41fd-4302-a723-54588949da92"
 			name="Navigate_to_Upload_testing_tab"
 			ref="d990c70a-9524-48c2-91ec-71cae782e2a8"
 			type="Recording">
+				<description>
+					<![CDATA[Verify navigation to Upload testing tab]]>
+				</description>
 			</testmodule>
 			<testcase
 			id="89373356-6553-47c2-bef9-dc87eb2c3074"
@@ -331,47 +313,55 @@
 					</param>
 				</parameters>
 			</testcase>
-			<setup
-			id="8b84ff49-f52c-49c2-87c2-d6fed4d83c86"
-			name="setup">
-			</setup>
 			<testmodule
 			id="8e235a65-c8d0-4cd3-bfe9-5adbd182a8fc"
 			name="Verify_Current_Date_Selected_On_Clicking_Today"
 			ref="746cb882-4493-4305-b328-57f4a3ac2cd6"
 			type="Recording">
+				<description>
+					<![CDATA[Verify current date is shown on clicking Today button in calendar]]>
+				</description>
 			</testmodule>
-			<testmodule
-			id="8e3ec9ec-ba4d-4bee-b825-d04c8e69c15e"
-			name="StartAUT"
-			ref="a016902c-5633-4893-885d-647761fa0eeb"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="AppProcessID"
-					datasourceid="8a45198c-e31a-4e2d-971f-c63232cd32c9"
-					variableid="dbd71d3f-cfd1-42b3-b88e-9b88a55554bb"
-					variablename="StartAutProcessIDVar">
-					</var>
-				</databinding>
-			</testmodule>
+			<teardown
+			id="8f6529ad-f2a1-4b4f-94bd-521035c93e90"
+			name="teardown">
+				<description>
+					<![CDATA[Close AUT]]>
+				</description>
+			</teardown>
 			<testmodule
 			id="93ee711d-3f77-45b8-a131-a7b2d0cf20d4"
 			name="Navigate_to_Image_based_automation_tab"
 			ref="0c9a99b6-38af-4744-969e-856e62566638"
 			type="Recording">
+				<description>
+					<![CDATA[Verify navigation to Image-based automation tab]]>
+				</description>
 			</testmodule>
 			<testmodule
 			id="9607c3a8-895a-4db3-8221-cc74e50febee"
 			name="Verify_Welcome_Mesage"
 			ref="239e572e-8956-4e38-8fcb-13c3526539fc"
 			type="Recording">
+				<description>
+					<![CDATA[Verify correct welcome message is shown]]>
+				</description>
 			</testmodule>
+			<setup
+			id="9745bc3b-f3f1-4eb6-82bc-9205e9c3cf1d"
+			name="setup">
+				<description>
+					<![CDATA[Launch AUT]]>
+				</description>
+			</setup>
 			<testmodule
 			id="9c7bdf98-5297-4614-b57d-09d04f88d223"
 			name="Collapse_Items_In_TreeView"
 			ref="02418814-8b81-435e-ba60-11adf569604e"
 			type="Recording">
+				<description>
+					<![CDATA[Collapse items in Tree view]]>
+				</description>
 			</testmodule>
 			<testcase
 			id="a019de19-6ec3-471e-b970-729eb07d7df6"
@@ -385,18 +375,21 @@
 			name="Verify_Reset_Function"
 			ref="58c6ebec-967d-4f36-b9ba-898bea9d8390"
 			type="Recording">
+				<description>
+					<![CDATA[Verify Reset function]]>
+				</description>
 			</testmodule>
 			<testmodule
-			id="a1d3e3b1-a31b-4bf3-abfc-bb695c0076d1"
-			name="StartAUT"
-			ref="a016902c-5633-4893-885d-647761fa0eeb"
+			id="a3ed2805-15ec-4139-8ef5-57d07e7c3f04"
+			name="CloseAUT"
+			ref="d96aff6e-7eeb-4e96-9843-942dfb75264c"
 			type="Recording">
 				<databinding>
 					<var
 					dataname="AppProcessID"
 					datasourceid="8a45198c-e31a-4e2d-971f-c63232cd32c9"
-					variableid="dbd71d3f-cfd1-42b3-b88e-9b88a55554bb"
-					variablename="StartAutProcessIDVar">
+					variableid="fb5d208b-dcae-457d-a187-a4a5a85741d4"
+					variablename="CloseAutProcessIDVar">
 					</var>
 				</databinding>
 			</testmodule>
@@ -405,92 +398,172 @@
 			name="Navigate_to_Object_identification_tab"
 			ref="da23f796-63bc-4a29-923a-27fe69c90561"
 			type="Recording">
-			</testmodule>
-			<testmodule
-			id="a4d2730e-88ec-4615-b4a9-51fa12e621fd"
-			name="StartAUT"
-			ref="a016902c-5633-4893-885d-647761fa0eeb"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="AppProcessID"
-					datasourceid="8a45198c-e31a-4e2d-971f-c63232cd32c9"
-					variableid="dbd71d3f-cfd1-42b3-b88e-9b88a55554bb"
-					variablename="StartAutProcessIDVar">
-					</var>
-				</databinding>
+				<description>
+					<![CDATA[Verify navigation to Object Identification tab]]>
+				</description>
 			</testmodule>
 			<testmodule
 			id="a584cdd2-3872-4ab0-9d14-5d782e5b087a"
 			name="Expand_Items_In_TreeView"
 			ref="d2875bc7-a379-4831-97e7-14f1684e3797"
 			type="Recording">
+				<description>
+					<![CDATA[Expanc items in Tree view]]>
+				</description>
+			</testmodule>
+			<testmodule
+			id="a84cd097-f0e9-41bf-9316-c6eb95c78319"
+			name="StartAUT"
+			ref="63e021d7-56bf-452e-8ec0-71d78c6d7898"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="8a45198c-e31a-4e2d-971f-c63232cd32c9"
+					variableid="81412f9f-b56a-4691-a738-06d59a13b1da"
+					variablename="StartAutProcessIDVar">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="a9680e98-b700-475a-9338-626fc689925a"
 			name="Reset_Selection"
 			ref="dd850e1a-ff78-47e9-ab7f-b212beb30a00"
 			type="Recording">
+				<description>
+					<![CDATA[Verify no radio buttons are selected on clicking Reset button]]>
+				</description>
 			</testmodule>
+			<teardown
+			id="a9a6befd-c17a-410b-b4fe-6d2bf1749df7"
+			name="teardown">
+				<description>
+					<![CDATA[Close AUT]]>
+				</description>
+			</teardown>
+			<teardown
+			id="a9d3d35f-acc2-4ade-a003-3dff0b7bfad5"
+			name="teardown">
+				<description>
+					<![CDATA[Close AUT]]>
+				</description>
+			</teardown>
+			<setup
+			id="aa33e9cf-0d99-4e55-a067-3e659007a759"
+			name="setup">
+				<description>
+					<![CDATA[Launch AUT]]>
+				</description>
+			</setup>
 			<testmodule
-			id="afecf633-e5b8-4671-9092-0f31b286158b"
+			id="ab453c71-affa-4fa4-8ea7-b7c78ab918b8"
 			name="CloseAUT"
-			ref="fd5591b9-4a9b-4045-9035-749b4725cab1"
+			ref="d96aff6e-7eeb-4e96-9843-942dfb75264c"
 			type="Recording">
 				<databinding>
 					<var
 					dataname="AppProcessID"
 					datasourceid="8a45198c-e31a-4e2d-971f-c63232cd32c9"
-					variableid="a01ea109-3b7a-4991-ba93-a11bdcf8e862"
+					variableid="fb5d208b-dcae-457d-a187-a4a5a85741d4"
 					variablename="CloseAutProcessIDVar">
 					</var>
 				</databinding>
 			</testmodule>
 			<testmodule
-			id="b74208da-4997-4aec-9ca4-c86160cbbf4d"
-			name="StartAUT"
-			ref="a016902c-5633-4893-885d-647761fa0eeb"
+			id="b1ddeb6a-1bf6-4ec6-973f-b497ab95b40e"
+			name="CloseAUT"
+			ref="d96aff6e-7eeb-4e96-9843-942dfb75264c"
 			type="Recording">
 				<databinding>
 					<var
 					dataname="AppProcessID"
 					datasourceid="8a45198c-e31a-4e2d-971f-c63232cd32c9"
-					variableid="dbd71d3f-cfd1-42b3-b88e-9b88a55554bb"
+					variableid="fb5d208b-dcae-457d-a187-a4a5a85741d4"
+					variablename="CloseAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="b5db6dbc-a8c7-493f-9f51-0455b11186ed"
+			name="CloseAUT"
+			ref="d96aff6e-7eeb-4e96-9843-942dfb75264c"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="8a45198c-e31a-4e2d-971f-c63232cd32c9"
+					variableid="fb5d208b-dcae-457d-a187-a4a5a85741d4"
+					variablename="CloseAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="bd7a6376-9f85-4928-9d43-c88b15bddbb1"
+			name="CloseAUT"
+			ref="d96aff6e-7eeb-4e96-9843-942dfb75264c"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="8a45198c-e31a-4e2d-971f-c63232cd32c9"
+					variableid="fb5d208b-dcae-457d-a187-a4a5a85741d4"
+					variablename="CloseAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="c4554c7f-51ac-4b6f-898f-d3f3b02352ab"
+			name="StartAUT"
+			ref="63e021d7-56bf-452e-8ec0-71d78c6d7898"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="8a45198c-e31a-4e2d-971f-c63232cd32c9"
+					variableid="81412f9f-b56a-4691-a738-06d59a13b1da"
 					variablename="StartAutProcessIDVar">
 					</var>
 				</databinding>
 			</testmodule>
 			<teardown
-			id="b8081efc-3c95-4e06-a10d-65fc341880e0"
+			id="c79161f8-57f5-4c73-995d-957ff71e0b4c"
 			name="teardown">
+				<description>
+					<![CDATA[Close AUT]]>
+				</description>
 			</teardown>
 			<setup
-			id="c787d27c-b0c1-4d5d-aaa0-98d2cb536537"
+			id="ce0fbcd1-ee5a-4af1-810a-e4602ecf1b7b"
 			name="setup">
-			</setup>
-			<teardown
-			id="c7d7e2f6-3f8d-40d0-9f78-f359fa8dc8f2"
-			name="teardown">
-			</teardown>
-			<setup
-			id="c86d28c8-bb23-47de-96e9-9f5fb9a914ae"
-			name="setup">
-			</setup>
-			<setup
-			id="c8df7b98-f1bd-43fe-b9a8-6832492a951c"
-			name="setup">
+				<description>
+					<![CDATA[Launch AUT]]>
+				</description>
 			</setup>
 			<testmodule
-			id="c99968aa-cbac-4c12-9436-6ea095e93708"
-			name="CloseAUT"
-			ref="fd5591b9-4a9b-4045-9035-749b4725cab1"
+			id="cf29156e-999c-4c16-b614-995cc3d9539d"
+			name="StartAUT"
+			ref="63e021d7-56bf-452e-8ec0-71d78c6d7898"
 			type="Recording">
 				<databinding>
 					<var
 					dataname="AppProcessID"
 					datasourceid="8a45198c-e31a-4e2d-971f-c63232cd32c9"
-					variableid="a01ea109-3b7a-4991-ba93-a11bdcf8e862"
-					variablename="CloseAutProcessIDVar">
+					variableid="81412f9f-b56a-4691-a738-06d59a13b1da"
+					variablename="StartAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="d04d551f-0e55-44b8-b6a4-36d484272154"
+			name="StartAUT"
+			ref="63e021d7-56bf-452e-8ec0-71d78c6d7898"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="8a45198c-e31a-4e2d-971f-c63232cd32c9"
+					variableid="81412f9f-b56a-4691-a738-06d59a13b1da"
+					variablename="StartAutProcessIDVar">
 					</var>
 				</databinding>
 			</testmodule>
@@ -502,60 +575,41 @@
 				</description>
 			</testcase>
 			<testmodule
-			id="d17074f3-bdbb-459f-983f-d5c8ca0a6664"
-			name="StartAUT"
-			ref="a016902c-5633-4893-885d-647761fa0eeb"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="AppProcessID"
-					datasourceid="8a45198c-e31a-4e2d-971f-c63232cd32c9"
-					variableid="dbd71d3f-cfd1-42b3-b88e-9b88a55554bb"
-					variablename="StartAutProcessIDVar">
-					</var>
-				</databinding>
-			</testmodule>
-			<testmodule
 			id="d45dc765-8302-41c4-a9d1-7785a1eb0de9"
 			name="Verify_Red_Image_Is_Shown"
 			ref="752401a9-2e51-400a-a55d-836d67382872"
 			type="Recording">
+				<description>
+					<![CDATA[Verify Red image is shown on clicking Green radio button]]>
+				</description>
 			</testmodule>
 			<testmodule
-			id="d83e6c63-9cb5-4a5b-9681-6162f9c27128"
-			name="StartAUT"
-			ref="a016902c-5633-4893-885d-647761fa0eeb"
-			type="Recording">
-				<databinding>
-					<var
-					dataname="AppProcessID"
-					datasourceid="8a45198c-e31a-4e2d-971f-c63232cd32c9"
-					variableid="dbd71d3f-cfd1-42b3-b88e-9b88a55554bb"
-					variablename="StartAutProcessIDVar">
-					</var>
-				</databinding>
-			</testmodule>
-			<teardown
-			id="ddf5256b-0006-422e-8adf-0382cc9e1aa3"
-			name="teardown">
-			</teardown>
-			<testmodule
-			id="e2ccad42-ae50-4ee0-9e4c-3b1f2ed22f14"
+			id="dd943012-cb0d-480a-a52c-3ec2ed63ebed"
 			name="CloseAUT"
-			ref="fd5591b9-4a9b-4045-9035-749b4725cab1"
+			ref="d96aff6e-7eeb-4e96-9843-942dfb75264c"
 			type="Recording">
 				<databinding>
 					<var
 					dataname="AppProcessID"
 					datasourceid="8a45198c-e31a-4e2d-971f-c63232cd32c9"
-					variableid="a01ea109-3b7a-4991-ba93-a11bdcf8e862"
+					variableid="fb5d208b-dcae-457d-a187-a4a5a85741d4"
 					variablename="CloseAutProcessIDVar">
 					</var>
 				</databinding>
 			</testmodule>
 			<teardown
-			id="e477bf82-d471-477f-95a3-0affa9bd6da5"
+			id="de7afe6c-345b-452f-ae06-ee24282306e6"
 			name="teardown">
+				<description>
+					<![CDATA[Close AUT]]>
+				</description>
+			</teardown>
+			<teardown
+			id="e3e64581-ffb3-4e1e-959f-54c86cfb4642"
+			name="teardown">
+				<description>
+					<![CDATA[Close AUT]]>
+				</description>
 			</teardown>
 			<testcase
 			datasource="data"
@@ -572,18 +626,62 @@
 				</parameters>
 			</testcase>
 			<testmodule
+			id="e5d87c5d-691f-40f3-9ff8-63fc6f1f1eb6"
+			name="StartAUT"
+			ref="63e021d7-56bf-452e-8ec0-71d78c6d7898"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="8a45198c-e31a-4e2d-971f-c63232cd32c9"
+					variableid="81412f9f-b56a-4691-a738-06d59a13b1da"
+					variablename="StartAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="e7ef7e5b-f569-4e49-b755-b1f18bea3319"
 			name="Navigate_to_Dynamic_IDs_tab"
 			ref="45b296a8-d5ca-4ed6-85be-d2bc4744effb"
 			type="Recording">
+				<description>
+					<![CDATA[Verify navigation to Dynamic IDs tab]]>
+				</description>
 			</testmodule>
-			<setup
-			id="ee745cce-b2c9-4763-a05c-ab9d021c69de"
-			name="setup">
-			</setup>
+			<testmodule
+			id="ea8ac713-05d6-4478-99d3-40a9ee328b6c"
+			name="StartAUT"
+			ref="63e021d7-56bf-452e-8ec0-71d78c6d7898"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="8a45198c-e31a-4e2d-971f-c63232cd32c9"
+					variableid="81412f9f-b56a-4691-a738-06d59a13b1da"
+					variablename="StartAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="eeb9993d-627e-404b-aaec-ff083369ceb2"
+			name="CloseAUT"
+			ref="d96aff6e-7eeb-4e96-9843-942dfb75264c"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="8a45198c-e31a-4e2d-971f-c63232cd32c9"
+					variableid="fb5d208b-dcae-457d-a187-a4a5a85741d4"
+					variablename="CloseAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
 			<teardown
-			id="f1c232c7-4b7c-4914-b6cf-17042373585a"
+			id="f3f2fc1a-e1f3-4139-b1c9-3e091525c4a6"
 			name="teardown">
+				<description>
+					<![CDATA[Close AUT]]>
+				</description>
 			</teardown>
 			<testcase
 			id="f5862b2b-3fe3-4261-954b-b57b69219573"
@@ -599,6 +697,27 @@
 					<![CDATA[Verify all rows inside the table are selected when user clicks on top left corner of the table]]>
 				</description>
 			</testcase>
+			<teardown
+			id="f5f45226-cdd2-4ddd-8307-fb7ace30d479"
+			name="teardown">
+				<description>
+					<![CDATA[Close AUT]]>
+				</description>
+			</teardown>
+			<testmodule
+			id="f7ac6146-3711-42c0-b6a1-79286f889f0e"
+			name="CloseAUT"
+			ref="d96aff6e-7eeb-4e96-9843-942dfb75264c"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="8a45198c-e31a-4e2d-971f-c63232cd32c9"
+					variableid="fb5d208b-dcae-457d-a187-a4a5a85741d4"
+					variablename="CloseAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
 			<testcase
 			id="f8141220-9bfc-4c04-abe1-6bc0350fb79a"
 			name="9_Verify_ListBox_Values">
@@ -606,30 +725,44 @@
 					<![CDATA[Verify list box is displaying correct items]]>
 				</description>
 			</testcase>
+			<setup
+			id="f8cd42c9-29b1-446d-b929-c9401c1265fe"
+			name="setup">
+				<description>
+					<![CDATA[Launch AUT]]>
+				</description>
+			</setup>
+			<setup
+			id="f9d42a08-7d6a-4731-8fb9-c2a7356a039e"
+			name="setup">
+				<description>
+					<![CDATA[Launch AUT]]>
+				</description>
+			</setup>
 			<testmodule
-			id="f9328944-61c0-4644-b60f-7b201e40ab6e"
-			name="StartAUT"
-			ref="a016902c-5633-4893-885d-647761fa0eeb"
+			id="fa9e7c72-5787-4667-b8eb-2aa866c1d04c"
+			name="CloseAUT"
+			ref="d96aff6e-7eeb-4e96-9843-942dfb75264c"
 			type="Recording">
 				<databinding>
 					<var
 					dataname="AppProcessID"
 					datasourceid="8a45198c-e31a-4e2d-971f-c63232cd32c9"
-					variableid="dbd71d3f-cfd1-42b3-b88e-9b88a55554bb"
-					variablename="StartAutProcessIDVar">
+					variableid="fb5d208b-dcae-457d-a187-a4a5a85741d4"
+					variablename="CloseAutProcessIDVar">
 					</var>
 				</databinding>
 			</testmodule>
 			<testmodule
-			id="fdb1e5e4-aa97-460d-8cc5-2f5afdb25c69"
+			id="faac0bae-1dad-426e-81b9-f1310c9d5924"
 			name="StartAUT"
-			ref="a016902c-5633-4893-885d-647761fa0eeb"
+			ref="63e021d7-56bf-452e-8ec0-71d78c6d7898"
 			type="Recording">
 				<databinding>
 					<var
 					dataname="AppProcessID"
 					datasourceid="8a45198c-e31a-4e2d-971f-c63232cd32c9"
-					variableid="dbd71d3f-cfd1-42b3-b88e-9b88a55554bb"
+					variableid="81412f9f-b56a-4691-a738-06d59a13b1da"
 					variablename="StartAutProcessIDVar">
 					</var>
 				</databinding>
@@ -639,6 +772,9 @@
 			name="Compare_Listbox_Values"
 			ref="33a820f1-3795-435b-a154-98d6a73a83cf"
 			type="Recording">
+				<description>
+					<![CDATA[Verify items displayed in the list box with expected values]]>
+				</description>
 			</testmodule>
 		</flatlistofchildren>
 		<childhierarchy>
@@ -648,14 +784,22 @@
 				<testcase
 				id="8a45198c-e31a-4e2d-971f-c63232cd32c9"
 				name="DemoApp_UI_Smoke">
+					<setup
+					id="40e53d04-2bb8-43fc-aa75-7f999fb153d3"
+					name="setup">
+						<testmodule
+						id="119b4139-aac0-47ea-8492-04f487bc16ce"
+						name="SetupJiraIntegration">
+						</testmodule>
+					</setup>
 					<testcase
 					id="f5862b2b-3fe3-4261-954b-b57b69219573"
 					name="1_Navigation_Between_Tabs">
 						<setup
-						id="ee745cce-b2c9-4763-a05c-ab9d021c69de"
+						id="f9d42a08-7d6a-4731-8fb9-c2a7356a039e"
 						name="setup">
 							<testmodule
-							id="fdb1e5e4-aa97-460d-8cc5-2f5afdb25c69"
+							id="c4554c7f-51ac-4b6f-898f-d3f3b02352ab"
 							name="StartAUT">
 							</testmodule>
 						</setup>
@@ -684,10 +828,10 @@
 						name="Navigate_to_Object_identification_tab">
 						</testmodule>
 						<teardown
-						id="7c9fba9d-c7a9-470a-9ac0-9859d03683f6"
+						id="2a7c3da3-da96-4b61-b155-7b5ded697ffc"
 						name="teardown">
 							<testmodule
-							id="5c3cff16-eaf6-4a36-97d3-5ad62ff3d9b1"
+							id="eeb9993d-627e-404b-aaec-ff083369ceb2"
 							name="CloseAUT">
 							</testmodule>
 						</teardown>
@@ -696,10 +840,10 @@
 					id="71178155-154e-497d-a53b-5ac56e783027"
 					name="2_Verify_Welcome_Message">
 						<setup
-						id="404d3f83-8ee3-46ab-87b7-22c7ce9a6ccb"
+						id="18c8e17d-71ff-46fa-9544-c26073ab4830"
 						name="setup">
 							<testmodule
-							id="f9328944-61c0-4644-b60f-7b201e40ab6e"
+							id="763bfdac-ba14-425c-b5ab-ca40df9fdfcc"
 							name="StartAUT">
 							</testmodule>
 						</setup>
@@ -712,10 +856,10 @@
 						name="Verify_Reset_Function">
 						</testmodule>
 						<teardown
-						id="e477bf82-d471-477f-95a3-0affa9bd6da5"
+						id="c79161f8-57f5-4c73-995d-957ff71e0b4c"
 						name="teardown">
 							<testmodule
-							id="53b313e6-16d3-4cad-8dce-51c37ce1837b"
+							id="ab453c71-affa-4fa4-8ea7-b7c78ab918b8"
 							name="CloseAUT">
 							</testmodule>
 						</teardown>
@@ -724,10 +868,10 @@
 					id="e5cf4e83-4fba-4d9c-82b8-567f05ddcbd2"
 					name="3_Add_Multiple_Entries">
 						<setup
-						id="5c082d04-e684-460f-b7ba-faebde393ce9"
+						id="337badc6-a95c-4f16-8492-fa3f9d155776"
 						name="setup">
 							<testmodule
-							id="a1d3e3b1-a31b-4bf3-abfc-bb695c0076d1"
+							id="a84cd097-f0e9-41bf-9316-c6eb95c78319"
 							name="StartAUT">
 							</testmodule>
 						</setup>
@@ -736,10 +880,10 @@
 						name="Fill_In_Form_And_Click_Add_Entry">
 						</testmodule>
 						<teardown
-						id="14c5c9a9-62e7-49c2-bd6d-479c507ede6d"
+						id="f5f45226-cdd2-4ddd-8307-fb7ace30d479"
 						name="teardown">
 							<testmodule
-							id="afecf633-e5b8-4671-9092-0f31b286158b"
+							id="f7ac6146-3711-42c0-b6a1-79286f889f0e"
 							name="CloseAUT">
 							</testmodule>
 						</teardown>
@@ -748,10 +892,10 @@
 					id="5296b965-8671-4ff4-907b-4999aacf79d6"
 					name="4_Remove_All_Entries">
 						<setup
-						id="c787d27c-b0c1-4d5d-aaa0-98d2cb536537"
+						id="4e337794-b642-4c80-8d04-b5b38cbaf1e9"
 						name="setup">
 							<testmodule
-							id="d83e6c63-9cb5-4a5b-9681-6162f9c27128"
+							id="faac0bae-1dad-426e-81b9-f1310c9d5924"
 							name="StartAUT">
 							</testmodule>
 						</setup>
@@ -760,10 +904,10 @@
 						name="Remove_All_Entries_In_Table">
 						</testmodule>
 						<teardown
-						id="b8081efc-3c95-4e06-a10d-65fc341880e0"
+						id="e3e64581-ffb3-4e1e-959f-54c86cfb4642"
 						name="teardown">
 							<testmodule
-							id="58a422f0-fcfc-4d5f-824f-2c1f9c0ff20a"
+							id="bd7a6376-9f85-4928-9d43-c88b15bddbb1"
 							name="CloseAUT">
 							</testmodule>
 						</teardown>
@@ -772,10 +916,10 @@
 					id="89373356-6553-47c2-bef9-dc87eb2c3074"
 					name="5_Verify_Current_Date_In_Calendar">
 						<setup
-						id="c8df7b98-f1bd-43fe-b9a8-6832492a951c"
+						id="ce0fbcd1-ee5a-4af1-810a-e4602ecf1b7b"
 						name="setup">
 							<testmodule
-							id="d17074f3-bdbb-459f-983f-d5c8ca0a6664"
+							id="59d33bd2-9911-4607-9854-e975e2ca97d5"
 							name="StartAUT">
 							</testmodule>
 						</setup>
@@ -784,10 +928,10 @@
 						name="Verify_Current_Date_Selected_On_Clicking_Today">
 						</testmodule>
 						<teardown
-						id="7bdd0aad-bdce-4e5c-80d1-08a830f20c9c"
+						id="0f79484e-f961-424e-8d15-11058e7dcd11"
 						name="teardown">
 							<testmodule
-							id="60136346-7974-49cf-a2d1-68558aa11d12"
+							id="b5db6dbc-a8c7-493f-9f51-0455b11186ed"
 							name="CloseAUT">
 							</testmodule>
 						</teardown>
@@ -796,10 +940,10 @@
 					id="d1641694-70a2-47bf-bc8c-ea9346093db8"
 					name="6_Verify_Progressbar_File_Upload">
 						<setup
-						id="5a041372-2f8f-4ed1-9267-77d9c41ff766"
+						id="aa33e9cf-0d99-4e55-a067-3e659007a759"
 						name="setup">
 							<testmodule
-							id="b74208da-4997-4aec-9ca4-c86160cbbf4d"
+							id="e5d87c5d-691f-40f3-9ff8-63fc6f1f1eb6"
 							name="StartAUT">
 							</testmodule>
 						</setup>
@@ -808,10 +952,10 @@
 						name="Upload_File_And_Verify_Progressbar">
 						</testmodule>
 						<teardown
-						id="081ab6ab-4e71-4e01-9b52-41a69c7ac266"
+						id="8021469f-4f9f-4b05-856f-cfe8bc948975"
 						name="teardown">
 							<testmodule
-							id="c99968aa-cbac-4c12-9436-6ea095e93708"
+							id="a3ed2805-15ec-4139-8ef5-57d07e7c3f04"
 							name="CloseAUT">
 							</testmodule>
 						</teardown>
@@ -820,10 +964,10 @@
 					id="11e1ac02-5e98-4e39-8950-4b4efab259cd"
 					name="7_Verify_Progressbar_Reset">
 						<setup
-						id="019c0346-a45d-4ead-8d6e-2aa636ade76a"
+						id="0cb8978a-5f57-4d56-887f-b5af0997c2b5"
 						name="setup">
 							<testmodule
-							id="78f4cf18-a43a-43f2-a6d3-8a43643a0651"
+							id="1f76a2cf-559f-49c4-a192-358b462cbb0f"
 							name="StartAUT">
 							</testmodule>
 						</setup>
@@ -832,10 +976,10 @@
 						name="Click_Reset_Verify_Progressbar">
 						</testmodule>
 						<teardown
-						id="ddf5256b-0006-422e-8adf-0382cc9e1aa3"
+						id="f3f2fc1a-e1f3-4139-b1c9-3e091525c4a6"
 						name="teardown">
 							<testmodule
-							id="19dace76-a22e-4aab-b1da-0941603839f5"
+							id="688b7967-ee56-4d8e-a294-456bd29c430e"
 							name="CloseAUT">
 							</testmodule>
 						</teardown>
@@ -844,10 +988,10 @@
 					id="a019de19-6ec3-471e-b970-729eb07d7df6"
 					name="8_Verify_Red_Gree_And_Reset_Function">
 						<setup
-						id="8b84ff49-f52c-49c2-87c2-d6fed4d83c86"
+						id="9745bc3b-f3f1-4eb6-82bc-9205e9c3cf1d"
 						name="setup">
 							<testmodule
-							id="351e6b51-8508-4ba2-945e-b004582e927f"
+							id="58d44445-f7a0-484c-b373-16f71a0edea0"
 							name="StartAUT">
 							</testmodule>
 						</setup>
@@ -864,10 +1008,10 @@
 						name="Reset_Selection">
 						</testmodule>
 						<teardown
-						id="704ddb30-f99d-4696-808d-dd7af678f0a9"
+						id="a9d3d35f-acc2-4ade-a003-3dff0b7bfad5"
 						name="teardown">
 							<testmodule
-							id="151780c8-f74f-44e2-829d-54424ba9700b"
+							id="56798572-6378-401f-a5e9-311029af81eb"
 							name="CloseAUT">
 							</testmodule>
 						</teardown>
@@ -876,10 +1020,10 @@
 					id="f8141220-9bfc-4c04-abe1-6bc0350fb79a"
 					name="9_Verify_ListBox_Values">
 						<setup
-						id="c86d28c8-bb23-47de-96e9-9f5fb9a914ae"
+						id="268fa149-257e-4556-b86c-a12f3e0fc8f6"
 						name="setup">
 							<testmodule
-							id="a4d2730e-88ec-4615-b4a9-51fa12e621fd"
+							id="cf29156e-999c-4c16-b614-995cc3d9539d"
 							name="StartAUT">
 							</testmodule>
 						</setup>
@@ -888,10 +1032,10 @@
 						name="Compare_Listbox_Values">
 						</testmodule>
 						<teardown
-						id="f1c232c7-4b7c-4914-b6cf-17042373585a"
+						id="a9a6befd-c17a-410b-b4fe-6d2bf1749df7"
 						name="teardown">
 							<testmodule
-							id="e2ccad42-ae50-4ee0-9e4c-3b1f2ed22f14"
+							id="fa9e7c72-5787-4667-b8eb-2aa866c1d04c"
 							name="CloseAUT">
 							</testmodule>
 						</teardown>
@@ -900,10 +1044,10 @@
 					id="6fc9c6b9-d991-499c-8b46-ae95c3b816fd"
 					name="10_Expand_Collapse_Treeview">
 						<setup
-						id="50f6d4a0-7f81-4ac8-99de-796d50f0ca3f"
+						id="f8cd42c9-29b1-446d-b929-c9401c1265fe"
 						name="setup">
 							<testmodule
-							id="708412ea-e1e0-4131-9976-50629c6a9195"
+							id="ea8ac713-05d6-4478-99d3-40a9ee328b6c"
 							name="StartAUT">
 							</testmodule>
 						</setup>
@@ -916,10 +1060,10 @@
 						name="Collapse_Items_In_TreeView">
 						</testmodule>
 						<teardown
-						id="c7d7e2f6-3f8d-40d0-9f78-f359fa8dc8f2"
+						id="de7afe6c-345b-452f-ae06-ee24282306e6"
 						name="teardown">
 							<testmodule
-							id="0018d544-03db-411c-911c-2decfc9d813f"
+							id="dd943012-cb0d-480a-a52c-3ec2ed63ebed"
 							name="CloseAUT">
 							</testmodule>
 						</teardown>
@@ -928,10 +1072,10 @@
 					id="f5d0c825-bab7-4abb-a41d-a186ed360a59"
 					name="11_Select_All_Table_Rows">
 						<setup
-						id="79daebdd-672b-4034-b51c-8c28ae9a48db"
+						id="5e2cee7f-b213-4b9e-85e1-07bec1a54e42"
 						name="setup">
 							<testmodule
-							id="8e3ec9ec-ba4d-4bee-b825-d04c8e69c15e"
+							id="d04d551f-0e55-44b8-b6a4-36d484272154"
 							name="StartAUT">
 							</testmodule>
 						</setup>
@@ -940,10 +1084,10 @@
 						name="Select_All_Table_Rows">
 						</testmodule>
 						<teardown
-						id="55eea3d0-d750-40b3-b3e9-c3e5c0ba5898"
+						id="8f6529ad-f2a1-4b4f-94bd-521035c93e90"
 						name="teardown">
 							<testmodule
-							id="470261ae-f49e-41f1-97b9-882aa0536f6a"
+							id="b1ddeb6a-1bf6-4ec6-973f-b497ab95b40e"
 							name="CloseAUT">
 							</testmodule>
 						</teardown>
@@ -1027,5 +1171,8 @@
 		</testconfiguration>
 	</testconfigurations>
 	<references>
+		<reference>
+			C:\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Integrations.Jira.dll
+		</reference>
 	</references>
 </testsuitedoc>

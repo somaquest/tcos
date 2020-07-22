@@ -438,6 +438,16 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="P:TCOS_POC_DEMOAPP.Navigate_to_Image_based_automation_tab.PageTabList_Screenshot2">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Navigate_to_Image_based_automation_tab.PageTabList_Screenshot2_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
         <member name="T:TCOS_POC_DEMOAPP.Navigate_to_UI_element_test_area_tab">
              <summary>
             The Navigate_to_UI_element_test_area_tab recording.
@@ -741,9 +751,255 @@
             The Self item info.
             </summary>
         </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepository.RxMainFrame">
+            <summary>
+            The RxMainFrame folder.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepository.List1000">
+            <summary>
+            The List1000 folder.
+            </summary>
+        </member>
         <member name="T:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders">
             <summary>
             Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder">
+            <summary>
+            The RxMainFrameAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RxMainFrame  folder.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.PageTabList">
+            <summary>
+            The PageTabList item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.PageTabListInfo">
+            <summary>
+            The PageTabList item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.RxTabIntroduction">
+            <summary>
+            The RxTabIntroduction folder.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.RxTabStandard">
+            <summary>
+            The RxTabStandard folder.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.PageTabListInfoClass">
+            <summary>
+            The PageTabListInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.PageTabListInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            PageTabListInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.PageTabListInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.PageTabListInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.PageTabListInfoClass.GetScreenshot2">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <returns>The Screenshot2 image.</returns>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.PageTabListInfoClass.GetScreenshot2(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabIntroductionFolder">
+            <summary>
+            The RxTabIntroductionFolder folder.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabIntroductionFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RxTabIntroduction  folder.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabIntroductionFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabIntroductionFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabIntroductionFolder.BtnSubmitUserName">
+            <summary>
+            The BtnSubmitUserName item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabIntroductionFolder.BtnSubmitUserNameInfo">
+            <summary>
+            The BtnSubmitUserName item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabIntroductionFolder.RxLinkBtnReset">
+            <summary>
+            The RxLinkBtnReset item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabIntroductionFolder.RxLinkBtnResetInfo">
+            <summary>
+            The RxLinkBtnReset item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabIntroductionFolder.TxtUserName">
+            <summary>
+            The TxtUserName item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabIntroductionFolder.TxtUserNameInfo">
+            <summary>
+            The TxtUserName item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabIntroductionFolder.RxTabIntroduction">
+            <summary>
+            The RxTabIntroduction item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabIntroductionFolder.RxTabIntroductionInfo">
+            <summary>
+            The RxTabIntroduction item info.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder">
+            <summary>
+            The RxTabStandardFolder folder.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RxTabStandard  folder.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.UpDownEdit">
+            <summary>
+            The UpDownEdit item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.UpDownEditInfo">
+            <summary>
+            The UpDownEdit item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.BtnAddPerson">
+            <summary>
+            The BtnAddPerson item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.BtnAddPersonInfo">
+            <summary>
+            The BtnAddPerson item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.CmbDepartment">
+            <summary>
+            The CmbDepartment item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.CmbDepartmentInfo">
+            <summary>
+            The CmbDepartment item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.TxtLastName">
+            <summary>
+            The TxtLastName item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.TxtLastNameInfo">
+            <summary>
+            The TxtLastName item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.TxtFirstName">
+            <summary>
+            The TxtFirstName item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.TxtFirstNameInfo">
+            <summary>
+            The TxtFirstName item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.TestDatabase">
+            <summary>
+            The TestDatabase item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.TestDatabaseInfo">
+            <summary>
+            The TestDatabase item info.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.List1000AppFolder">
+            <summary>
+            The List1000AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.List1000AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new List1000  folder.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.List1000AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.List1000AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
             </summary>
         </member>
         <member name="T:TCOS_POC_DEMOAPP.Verify_Current_Date_Selected_On_Clicking_Today">

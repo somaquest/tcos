@@ -1,0 +1,12 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="DemoApp_UI_Smoke.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="DemoApp_UI_Smoke.rxtst" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>

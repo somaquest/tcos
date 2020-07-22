@@ -47,6 +47,9 @@
     <Reference Include="Ranorex.Core.Resolver">
       <Private>True</Private>
     </Reference>
+    <Reference Include="Ranorex.Integrations.Jira">
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Ranorex.Plugin.Cef">
       <Private>False</Private>
     </Reference>
@@ -447,7 +450,7 @@
     <None Include="CloseAUT.rxrec">
       <BoundTo>7081ee5f-f73a-4350-bbae-7ab4d6c61c1a</BoundTo>
       <id>f3a6d732-8214-4eef-bdcf-3f6e2358b6f2</id>
-      <recordtableid>fd5591b9-4a9b-4045-9035-749b4725cab1</recordtableid>
+      <recordtableid>d96aff6e-7eeb-4e96-9843-942dfb75264c</recordtableid>
     </None>
     <None Include="Navigate_to_Test_database_tab.rxrec">
       <BoundTo>7081ee5f-f73a-4350-bbae-7ab4d6c61c1a</BoundTo>
@@ -492,7 +495,7 @@
     <None Include="StartAUT.rxrec">
       <BoundTo>7081ee5f-f73a-4350-bbae-7ab4d6c61c1a</BoundTo>
       <id>8c3c832b-f5c6-4ed0-ad20-9dde456fe00a</id>
-      <recordtableid>a016902c-5633-4893-885d-647761fa0eeb</recordtableid>
+      <recordtableid>63e021d7-56bf-452e-8ec0-71d78c6d7898</recordtableid>
     </None>
     <Content Include="TCOS_POC_DEMOAPP.rxsqc">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

@@ -79,6 +79,18 @@ namespace TCOS_POC_DEMOAPP
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'soma' with focus on 'RxMainFrame.RxTabIntroduction.TxtUserName'.", repo.RxMainFrame.RxTabIntroduction.TxtUserNameInfo, new RecordItemIndex(0));
+            repo.RxMainFrame.RxTabIntroduction.TxtUserName.PressKeys("soma");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabIntroduction.BtnSubmitUserName' at 60;19.", repo.RxMainFrame.RxTabIntroduction.BtnSubmitUserNameInfo, new RecordItemIndex(1));
+            repo.RxMainFrame.RxTabIntroduction.BtnSubmitUserName.Click("60;19");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabIntroduction.RxLinkBtnReset' at 26;11.", repo.RxMainFrame.RxTabIntroduction.RxLinkBtnResetInfo, new RecordItemIndex(2));
+            repo.RxMainFrame.RxTabIntroduction.RxLinkBtnReset.Click("26;11");
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data
