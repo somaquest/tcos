@@ -1,0 +1,11 @@
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\bin\Debug\TCOS_POC_DEMOAPP.rxsqc
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\bin\Debug\TCOS_POC_DEMOAPP.rxtmg
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\bin\Debug\TCOS_POC_DEMOAPP.exe.config
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\bin\Debug\TCOS_POC_DEMOAPP.xml
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\bin\Debug\TCOS_POC_DEMOAPP.exe
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\bin\Debug\TCOS_POC_DEMOAPP.pdb
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\obj\x86\Debug\TCOS_POC_DEMOAPP.csprojResolveAssemblyReference.cache
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\obj\x86\Debug\TCOS_POC_DEMOAPP.exe
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\obj\x86\Debug\TCOS_POC_DEMOAPP.pdb
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\bin\Debug\DemoApp_UI_Smoke.rxtst

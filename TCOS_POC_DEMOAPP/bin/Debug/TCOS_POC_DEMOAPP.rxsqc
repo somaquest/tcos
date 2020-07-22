@@ -1,0 +1,7 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "DemoApp_UI_Smoke",
+    "RunConfig": "TestRun"
+  }
+]
