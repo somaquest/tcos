@@ -47,9 +47,6 @@
     <Reference Include="Ranorex.Core.Resolver">
       <Private>True</Private>
     </Reference>
-    <Reference Include="Ranorex.Integrations.Jira">
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Ranorex.Plugin.Cef">
       <Private>False</Private>
     </Reference>

@@ -79,6 +79,10 @@ namespace TCOS_POC_DEMOAPP
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.UIElementTestArea' at 82;14.", repo.RxMainFrame.UIElementTestAreaInfo, new RecordItemIndex(0));
+            repo.RxMainFrame.UIElementTestArea.Click("82;14");
+            Delay.Milliseconds(200);
+            
         }
 
 #region Image Feature Data

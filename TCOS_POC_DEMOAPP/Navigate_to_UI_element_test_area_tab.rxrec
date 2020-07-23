@@ -25,6 +25,30 @@ mode="Global">
 	<variables>
 	</variables>
 	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="82;14"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="26a03a9f-b909-4858-acec-ac292afcc114"
+		sx="792"
+		sy="281"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="dae9d3e3-fdeb-44c7-919c-6f9b3ea90897"
+			sourcename="Recorder">
+				<path>
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@accessiblename='UI-element test area']
+				</path>
+			</info>
+		</mouseitem>
 	</recorditems>
 	<repository
 	id="055c5840-e07d-43b0-ba49-91890698f03d"

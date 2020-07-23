@@ -79,51 +79,13 @@ namespace TCOS_POC_DEMOAPP
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.PageTabList' at 17;10.", repo.RxMainFrame.PageTabListInfo, new RecordItemIndex(0));
-            repo.RxMainFrame.PageTabList.Click(new Location(PageTabList_Screenshot2, "17;10", PageTabList_Screenshot2_Options));
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'soma' with focus on 'RxMainFrame.RxTabStandard.TxtFirstName'.", repo.RxMainFrame.RxTabStandard.TxtFirstNameInfo, new RecordItemIndex(1));
-            repo.RxMainFrame.RxTabStandard.TxtFirstName.EnsureVisible();
-            Keyboard.Press("soma");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'g' with focus on 'RxMainFrame.RxTabStandard.TxtLastName'.", repo.RxMainFrame.RxTabStandard.TxtLastNameInfo, new RecordItemIndex(2));
-            repo.RxMainFrame.RxTabStandard.TxtLastName.PressKeys("g");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabStandard.CmbDepartment' at 435;12.", repo.RxMainFrame.RxTabStandard.CmbDepartmentInfo, new RecordItemIndex(3));
-            repo.RxMainFrame.RxTabStandard.CmbDepartment.Click("435;12");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '39' with focus on 'RxMainFrame'.", repo.RxMainFrame.SelfInfo, new RecordItemIndex(4));
-            repo.RxMainFrame.Self.EnsureVisible();
-            Keyboard.Press("39");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabStandard.UpDownEdit' at 392;16.", repo.RxMainFrame.RxTabStandard.UpDownEditInfo, new RecordItemIndex(5));
-            repo.RxMainFrame.RxTabStandard.UpDownEdit.Click("392;16");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabStandard.BtnAddPerson' at 24;9.", repo.RxMainFrame.RxTabStandard.BtnAddPersonInfo, new RecordItemIndex(6));
-            repo.RxMainFrame.RxTabStandard.BtnAddPerson.Click("24;9");
-            Delay.Milliseconds(18930);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.ImageBasedAutomation' at 23;8.", repo.RxMainFrame.ImageBasedAutomationInfo, new RecordItemIndex(0));
+            repo.RxMainFrame.ImageBasedAutomation.Click("23;8");
+            Delay.Milliseconds(200);
             
         }
 
 #region Image Feature Data
-        /// <summary>
-        /// DO NOT REFERENCE THIS CODE  - auto generated
-        /// </summary>
-        CompressedImage PageTabList_Screenshot2
-        { get { return repo.RxMainFrame.PageTabListInfo.GetScreenshot2(new Rectangle(232, 76, 23, 14)); } }
-
-        /// <summary>
-        /// DO NOT REFERENCE THIS CODE  - auto generated
-        /// </summary>
-        Imaging.FindOptions PageTabList_Screenshot2_Options
-        { get { return Imaging.FindOptions.Default; } }
-
 #endregion
     }
 #pragma warning restore 0436

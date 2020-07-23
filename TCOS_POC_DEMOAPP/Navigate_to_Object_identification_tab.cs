@@ -79,6 +79,14 @@ namespace TCOS_POC_DEMOAPP
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.ObjectIdentification' at 35;6.", repo.RxMainFrame.ObjectIdentificationInfo, new RecordItemIndex(0));
+            repo.RxMainFrame.ObjectIdentification.Click("35;6");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'RxMainFrame.ObjectIdentification'.", repo.RxMainFrame.ObjectIdentificationInfo, new RecordItemIndex(1));
+            Validate.Exists(repo.RxMainFrame.ObjectIdentificationInfo);
+            Delay.Milliseconds(100);
+            
         }
 
 #region Image Feature Data

@@ -25,12 +25,6 @@
 					<![CDATA[Close AUT]]>
 				</description>
 			</teardown>
-			<testmodule
-			id="119b4139-aac0-47ea-8492-04f487bc16ce"
-			name="SetupJiraIntegration"
-			ref="c87d3889-8e1f-4009-b203-8bd062ef46c9"
-			type="UserCode">
-			</testmodule>
 			<testcase
 			id="11e1ac02-5e98-4e39-8950-4b4efab259cd"
 			name="7_Verify_Progressbar_Reset">
@@ -55,6 +49,7 @@
 				</description>
 			</setup>
 			<testmodule
+			enabled="False"
 			id="19d624e6-017c-4e55-985d-378ea9ed8991"
 			name="Fill_In_Form_And_Click_Add_Entry"
 			ref="94ef9041-3ac8-49cf-81f8-af08f5ac75a6"
@@ -105,10 +100,6 @@
 				<description>
 					<![CDATA[Launch AUT]]>
 				</description>
-			</setup>
-			<setup
-			id="40e53d04-2bb8-43fc-aa75-7f999fb153d3"
-			name="setup">
 			</setup>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
@@ -784,14 +775,6 @@
 				<testcase
 				id="8a45198c-e31a-4e2d-971f-c63232cd32c9"
 				name="DemoApp_UI_Smoke">
-					<setup
-					id="40e53d04-2bb8-43fc-aa75-7f999fb153d3"
-					name="setup">
-						<testmodule
-						id="119b4139-aac0-47ea-8492-04f487bc16ce"
-						name="SetupJiraIntegration">
-						</testmodule>
-					</setup>
 					<testcase
 					id="f5862b2b-3fe3-4261-954b-b57b69219573"
 					name="1_Navigation_Between_Tabs">
@@ -1171,8 +1154,5 @@
 		</testconfiguration>
 	</testconfigurations>
 	<references>
-		<reference>
-			C:\Program Files (x86)\Ranorex\Studio\Bin\Ranorex.Integrations.Jira.dll
-		</reference>
 	</references>
 </testsuitedoc>
